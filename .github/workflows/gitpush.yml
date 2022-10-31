@@ -33,5 +33,5 @@ jobs:
            
            script: |
             cd new_test
-            git pull
+            git pull https://github.com/olivemideva/server.git
             echo 'Pull request successful'
